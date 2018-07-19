@@ -126,8 +126,7 @@ scores = model.evaluate(valid_data, valid_label, verbose=0)
 print("Baseline Error: %.2f%%" % (100-scores[1]*100))
 ```
 
-    Train on 35000 samples, validate on 5000 samples
-    Epoch 1/1
-     - 97s - loss: 0.1184 - acc: 0.9657 - val_loss: 0.0850 - val_acc: 0.9738
-    Baseline Error: 2.62%
-
+Train on 35000 samples, validate on 5000 samples
+Epoch 1/1
+ - 97s - loss: 0.1184 - acc: 0.9657 - val_loss: 0.0850 - val_acc: 0.9738
+Baseline Error: 2.62%
