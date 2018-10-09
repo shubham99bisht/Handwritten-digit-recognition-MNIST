@@ -1,7 +1,8 @@
+#import all the necessary files
 import numpy as np
 import cv2
 import mnist_test
-
+#define a function for preprocessing and applying filters
 def get_img_contour_thresh(img):
     x, y, w, h = 0, 0, 300, 300
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -13,7 +14,7 @@ def get_img_contour_thresh(img):
 
 def main():
     loaded_model = mnist_test.model()
-
+    #load your trained model
     cap = cv2.VideoCapture(0)
     while (cap.isOpened()):
         ret, img = cap.read()
