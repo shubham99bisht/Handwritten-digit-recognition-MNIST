@@ -35,3 +35,9 @@ To run the code type,
 **Note: This page is not complete. Will be updated soon! sorry for delay.**
 
 For step-by-step tutorial please refer to [wiki](https://github.com/shubham99bisht/Handwritten-digit-recognition-MNIST/wiki). It will take you through all the steps right from loading the data to recognising digits through live cam.
+
+## Update
+**Note: If you are using the tensorflow 2.1, then you may get an error "AttributeError: module 'tensorflow_core._api.v2.config' has no attribute 'experimental_list_devices'"
+
+As the experimental_list_devices is deprecated in tf 2.1. A simple snippet is injected into the code to make the code work.
+And the code is taken from here : https://github.com/keras-team/keras/issues/13684#issuecomment-595054461
