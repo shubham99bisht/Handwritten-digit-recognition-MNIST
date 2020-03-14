@@ -32,7 +32,9 @@ To run the code type,
 
 
 ## Tutorial
-**Note: This page is not complete. Will be updated soon! sorry for delay.**
+**Note: This page is not complete. Sorry for delay.**
+
+**Need help for this to be completed**
 
 For step-by-step tutorial please refer to [wiki](https://github.com/shubham99bisht/Handwritten-digit-recognition-MNIST/wiki). It will take you through all the steps right from loading the data to recognising digits through live cam.
 
