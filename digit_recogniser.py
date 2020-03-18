@@ -67,5 +67,5 @@ def main():
     cap.release()
     cv2.destroyAllWindows()
 
-tfback._get_available_gpus = _get_available_gpus
+# tfback._get_available_gpus = _get_available_gpus
 main()
